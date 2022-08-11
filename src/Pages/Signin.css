@@ -1,0 +1,77 @@
+.signin_wrapper_outer{
+    height: 100vh;
+}
+.singin_wrapper{
+    box-shadow: rgb(0 0 0 / 10%) 0px 5px 40px;
+    max-width: 400px;
+    border-radius: 20px;
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.singin_wrapper .signin_section{
+    padding: 25px;
+}
+
+.singin_wrapper .signin_section .title p{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.singin_wrapper .signin_section .password_box{
+    margin-top: 37px;
+}
+.singin_wrapper .signin_section .email_box input,
+.singin_wrapper .signin_section .password_box input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 10px;
+    padding-left: 14px;
+}
+
+.singin_wrapper .signin_section .sign_in_btn{
+    margin-top: 37px;
+}
+
+.singin_wrapper .signin_section .sign_in_btn button{
+    width: 100%;
+    background: #3b6583;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    color: white;
+}
+
+
+.singin_wrapper .signin_section .sign_up_link{
+    margin-top: 37px;
+}
+
+.singin_wrapper .signin_section .sign_up_link p{
+    text-align: center;
+}
+
+
+@media only screen and (max-width:420px){
+    
+
+    .singin_wrapper .signin_section .title p{
+        font-size: 18px;
+    }
+
+    .singin_wrapper .signin_section .sign_in_btn button {
+        font-size: 13px;
+    }
+
+    .singin_wrapper .signin_section .sign_up_link p{
+        font-size: 13px;
+    }
+
+    
+}
+
+

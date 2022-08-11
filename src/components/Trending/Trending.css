@@ -1,0 +1,112 @@
+.trending_wrapper{
+    box-shadow: rgb(0 0 0 / 10%) 0px 5px 40px;
+    max-width: 1440px;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+.trending_wrapper .trending_section .title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.trending_wrapper .trending_section .title h1{
+    font-size: 25px;
+}
+
+.trending_wrapper .trending_section .trending_coin_card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trending_wrapper .trending_section .trending_coin_card .cardd{
+    display: flex;
+    box-shadow: rgb(0 0 0 / 10%) 0px 5px 4px;
+    border-radius: 8px;
+    width: 30%;
+    align-items: center;
+    margin: 20px;
+    padding: 0 5px;
+    
+}
+
+.trending_wrapper .trending_section .trending_coin_card .cardd .cardd_img{
+    flex: 1;
+}
+
+.trending_wrapper .trending_section .trending_coin_card .cardd .cardd_title{
+    flex: 3;
+}
+
+.trending_wrapper .trending_section .trending_coin_card .cardd .cardd_compare_to_btn{
+    flex: 1;
+}
+
+
+.trending_wrapper .trending_section .trending_coin_card .cardd .cardd_img img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+   
+}
+
+.trending_wrapper .trending_section .trending_coin_card .cardd .cardd_compare_to_btn img{
+    width: 30px;
+    height: 30px;
+}
+
+.cardanimation{
+    animation-duration: 2s;
+    animation-name: card-animation;
+}
+
+@keyframes card-animation{
+    0%{
+        transform: scale(1.5);
+    }
+   
+    50%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .trending_wrapper .trending_section .trending_coin_card .cardd{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1399px){
+    .trending_wrapper .trending_section .trending_coin_card{
+        justify-content: space-around;
+    }
+}
+
+
+
+@media only screen and (max-width: 420px){
+    .trending_wrapper .trending_section .trending_coin_card {
+       flex-direction: column;
+       align-items: center;
+       font-size: 13px;
+    }
+
+    .trending_wrapper .trending_section .trending_coin_card .cardd{
+        width: 90%;
+        margin: 10px;
+    }
+
+    .trending_wrapper .trending_section .trending_coin_card .cardd .cardd_img img{
+        height: 25px;
+        width: 25px;
+    }
+
+    .trending_wrapper .trending_section .trending_coin_card .cardd .cardd_compare_to_btn img{
+        height: 25px;
+        width: 25px;
+    }
+}

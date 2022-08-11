@@ -1,0 +1,213 @@
+.coinpage_wrapper{
+    box-shadow: rgb(0 0 0 / 10%) 0px 5px 40px;
+    max-width: 1440px;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 40px 0;
+}
+
+.coinpage_wrapper .coinpage_section .coinpage_title{
+    display: flex;
+    align-items: center;
+}
+
+.coinpage_wrapper .coinpage_section .coinpage_title img{
+    height: 50px;
+    width: 50px;
+}
+
+.coinpage_wrapper .coinpage_section .coinpage_title .coin_title_detail{
+    margin-left: 25px;
+}
+
+.coinpage_wrapper .coinpage_section .coinpage_title .coin_name{
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.coinpage_wrapper .coinpage_section .coinpage_statetics{
+    display: flex;
+}
+
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_left_part{
+    flex: 1;
+    padding: 10px;
+}
+
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part{
+    flex: 1;
+    padding: 10px;
+}
+
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_left_part .coinpage_price_and_day_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_left_part .coinpage_price_and_day_title .price_title{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_left_part .coin_market_volume{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_left_part .coin_high_low{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_left_part .coin_high_low .coin_high,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_left_part .coin_high_low .coin_low,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_left_part .coin_market_volume .market_cap,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_left_part .coin_market_volume .volume{
+    width: 30%;
+}
+
+
+
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_left_part .coin_market_volume .marketcap_title, 
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_left_part .coin_market_volume .volumeup_title,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_left_part .coin_high_low .high_title,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_left_part .coin_high_low .low_title{
+    margin: 0;
+    color: grey;
+  
+} 
+
+
+
+/* coinpage_right_part */
+
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_title p{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_first_row,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_sec_row,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_third_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_first_row .market_rank,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_first_row .hasing_algo,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_first_row .trust_score,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_sec_row .twenty_four,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_sec_row .seven,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_sec_row .fourteen,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_third_row .thirty,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_third_row .sixty,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_third_row .one_year {
+    width: 25%;
+}
+
+
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_first_row .market_rank p:first-child,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_first_row .hasing_algo p:first-child,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_first_row .trust_score p:first-child,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_sec_row .twenty_four p:first-child,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_sec_row .seven p:first-child,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_sec_row .fourteen p:first-child,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_third_row .thirty p:first-child,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_third_row .sixty p:first-child,
+.coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_third_row .one_year p:first-child{
+    margin-bottom: 0;
+    color: gray;
+}
+
+
+/* about part */
+
+
+.coinpage_wrapper .coinpage_section .coinpage_about p:first-child{
+    font-size: 25px;
+    font-weight: 600;
+} 
+
+@media only screen and (max-width:991px){
+    .coinpage_section{
+           max-width: 900px!important;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_first_row,
+    .coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_sec_row,
+    .coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_third_row{
+        font-size: 14px;
+    }
+
+    .coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_left_part .coin_market_volume,
+    .coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_left_part .coin_high_low{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .coinpage_wrapper .coinpage_section .coinpage_statetics{
+        flex-direction: column;
+    }
+
+    
+
+    .coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_left_part .coin_high_low .coin_low{
+        margin-left: 0;
+    }
+
+    .coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_left_part .coin_high_low{
+        justify-content: space-between;
+    }
+
+    .coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_first_row{
+        justify-content: space-between;
+    }
+
+    .coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_first_row,
+    .coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_sec_row,
+    .coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_third_row{
+        font-size: 13px;
+    }
+
+    .coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_left_part .coin_market_volume,
+    .coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_left_part .coin_high_low{
+        font-size: 13px;
+    }
+
+    .coinpage_wrapper .coinpage_section .coinpage_about p:first-child,
+    .coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_left_part .coinpage_price_and_day_title .price_title{
+        font-size: 18px;
+    }
+
+    .coinpage_wrapper .coinpage_section .coinpage_about p:last-child{
+        font-size: 13px;
+    }
+
+    .coinpage_wrapper .coinpage_section .coinpage_statetics .coinpage_right_part .right_part_title p{
+        font-size: 18px;
+    }
+
+    .coinpage_wrapper .coinpage_section .coinpage_title img{
+        height: 40px;
+        width: 40px;
+        margin-bottom: 13px;
+    }
+
+    .coinpage_wrapper .coinpage_section .coinpage_title .coin_name{
+        font-size: 18px;
+    }
+
+    .coinpage_wrapper .coinpage_section .coinpage_title .coin_title_detail p:last-child{
+        font-size: 13px;
+    }
+
+
+}

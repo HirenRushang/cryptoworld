@@ -1,0 +1,108 @@
+.coinlist_wrapper{
+    box-shadow: rgb(0 0 0 / 15%) 0px 5px 10px;
+    max-width: 1440px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.coinlist_wrapper .coinlist_section .searchbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.coinlist_wrapper .coinlist_section .searchbar h1{
+    font-size: 25px;
+}
+
+.coinlist_wrapper .coinlist_section .searchbar input{
+    box-shadow: rgb(0 0 0 / 10%) 0px 5px 5px;
+    border: none;
+    border-radius: 6px;
+    height: 30px;
+    width: 212px;
+    padding-left: 10px;
+}
+
+.coinlist_wrapper .coinlist_section .table_container{
+    margin-top: 60px;
+}
+
+.coinlist_wrapper .coinlist_section .table_container table{
+    width: 100%;
+}
+
+.coinlist_wrapper .coinlist_section .table_container table a{
+    text-decoration: none;
+    color: black;
+}
+.coinlist_wrapper .coinlist_section .table_container table tbody tr td{
+    height: 75px;
+}
+
+.coinlist_wrapper .coinlist_section .table_container .table_third_cell{
+    display: flex;
+}
+
+.coinlist_wrapper .coinlist_section .table_container .table_third_cell img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    
+}
+
+.coinlist_wrapper .coinlist_section .table_container .textgreen{
+    color: green;
+}
+
+.coinlist_wrapper .coinlist_section .table_container .textred{
+    color:red
+}
+
+
+@media only screen and (max-width:991px){
+      .coin_market,
+      .coin_twentyfour_volume,
+      .coin_twentyfour_hour,
+      .coin_table_name,
+      .data_volume,
+      .data_market_cap,
+      .data_symbol,
+      .data_pricechange_twentyfourhour{
+        display: none;
+      }
+}
+
+@media only screen and (max-width:420px) {
+    .coin_table_name,
+    .coin_market,
+    .coin_lastseven_day, 
+    .coin_twentyfour_volume,
+    .coin_twentyfour_hour,
+    .data_volume,
+    .data_market_cap,
+    .data_sparkline,
+    .data_symbol,
+    .data_pricechange_twentyfourhour{
+        display: none;
+    }
+
+    .coinlist_wrapper .coinlist_section .searchbar{
+        flex-direction: column;
+    }
+
+    .coinlist_wrapper .coinlist_section .searchbar h1 {
+        font-size: 18px;
+    }
+    .coinlist_wrapper .coinlist_section .table_container table{
+        font-size: 13px;
+    }
+    
+    .coinlist_wrapper .coinlist_section .table_container .table_third_cell img{
+        width: 25px;
+        height: 25px;
+    }
+
+    
+}

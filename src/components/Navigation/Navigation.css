@@ -1,0 +1,70 @@
+.otherside_navbar{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation_wrapper{
+    box-shadow: rgb(0 0 0 / 10%) 0px 5px 5px;
+    max-width: 1440px;
+    border-radius: 20px;
+}
+
+.brand_logo a{
+    text-decoration: none;
+}
+
+.navbar-brand{
+    
+    color: black;
+}
+
+.user_signin_signout{
+    display: flex;
+    align-items: center;
+}
+
+.user_signin_signout a{
+    color: black;
+}
+
+.user_account_signout{
+    display: flex;
+}
+
+.user_account_signout button{
+    background: #a93737;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 33px;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+}
+
+
+
+
+@media only screen and (max-width:991px) {
+    .user_signin_signout{
+        display: block;
+     
+    }
+
+    .togglethemebtn{
+        margin-top: 24px;
+        margin-bottom: 11px;
+    }
+
+    .user_account_signout{
+        display: block;
+    }
+
+    .user_account_signout button{
+        margin-top: 10px;
+    }
+}
+

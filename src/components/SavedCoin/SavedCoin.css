@@ -1,0 +1,107 @@
+.account_wrapper{
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 10px;
+    max-width: 1440px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.account_wrapper_outer{ 
+    height: 100vh;
+}
+
+.account_wrapper .account_section{
+    padding: 20px;
+}
+
+.account_wrapper .account_section .account_column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.account_wrapper .account_section .account_right_part button{
+    background: #a93737;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 44px;
+    color: white;
+    font-weight: 500;
+}
+
+
+.account_wrapper .account_section .account_column .account_left_part p:first-child{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.account_wrapper .account_section .account_column .account_left_part span{
+    font-weight: 500;
+}
+
+
+.account_wrapper .account_section .watchlist_wrapper{
+    margin-top: 50px;
+}
+
+
+.account_wrapper .account_section .watchlist_wrapper .savedcoin_wrapper{
+    margin-top: 50px;
+}
+
+.account_wrapper .account_section .watchlist_wrapper .savedcoin_wrapper table{
+    width: 100%;
+}
+
+.account_wrapper .account_section .watchlist_wrapper .savedcoin_wrapper table tr{
+    height: 100px;
+}
+
+
+.account_wrapper .account_section .watchlist_wrapper .savedcoin_wrapper .watchlist_item_img img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.account_wrapper .account_section .watchlist_wrapper .savedcoin_wrapper .watchlist_item_img{
+    display: flex;
+    align-items: center;
+}
+
+.account_wrapper .account_section .watchlist_wrapper .savedcoin_wrapper a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.account_wrapper .account_section .watchlist_wrapper .savedcoin_wrapper .watchlist_item_img .watchlist_coin_name{
+     margin-bottom: 0;
+}
+
+
+@media only screen and (max-width: 420px){
+    .account_wrapper .account_section .account_column .account_left_part p:first-child{
+        font-size: 18px;
+    }
+
+    .account_wrapper .account_section .account_column .account_left_part p:last-child{
+        font-size: 13px;
+    }
+
+    .account_wrapper .account_section .account_right_part button{
+        font-size: 14px;
+    }
+    .account_wrapper .account_section .watchlist_wrapper .savedcoin_wrapper table{
+        font-size: 13px;
+    }
+    .account_wrapper .account_section .watchlist_wrapper .savedcoin_wrapper .watchlist_item_img img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .account_wrapper .account_section .watchlist_wrapper .savedcoin_wrapper{
+        margin-top: 10px;
+    }
+}

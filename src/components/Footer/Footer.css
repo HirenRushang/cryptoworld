@@ -1,0 +1,70 @@
+.footer_wrapper{
+    box-shadow: rgb(0 0 0 / 10%) 0px 5px 40px;
+    max-width: 1440px;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background: #ede5dc;
+}
+
+.footer_wrapper .footer_section .footer_web_about .footer_title{
+    font-size: 25px;
+}
+
+.footer_wrapper .footer_section .footer_social_link_column .footer_social_link{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_wrapper .footer_section .footer_news_input_box{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.footer_wrapper .footer_section .footer_news_input_box input{
+    height: 40px;
+    border: none;
+    box-shadow: rgb(0 0 0 / 15%) 0px 5px 40px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+.footer_wrapper .footer_section .footer_news_input_box button{
+    background: #1694a9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.footer_wrapper .footer_section .footer_news_letter p:first-child{
+    font-size: 25px;
+}
+
+.footer_wrapper .footer_section .madeby_me{
+         text-align: center;
+}
+
+
+
+@media only screen and (max-width:992px) {
+    .footer_wrapper .footer_section .footer_news_input_box{
+       
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width:767px) {
+    .footer_wrapper .footer_section .footer_social_link_column .footer_social_link{
+        margin-top: 20px;
+    margin-bottom: 30px;
+        justify-content: space-between;
+    }
+}
+
+
+
